@@ -1,0 +1,192 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    background-color: #f8f2f9; /* Light pink background */
+    color: #333;
+}
+
+/* Container for login and registration form */
+.container {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px; /* Limiting the width of the box */
+    margin: 0 auto; /* Centers the box horizontally */
+
+}
+
+/* Headers styling */
+h1 {
+    text-align: center;
+    color: #d63384; /* Soft pinkish color */
+    font-size: 2rem;
+}
+
+h2 {
+    text-align: center;
+    color: #6c757d;
+    font-size: 1.5rem;
+}
+
+/* Form styles */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+label {
+    font-weight: bold;
+    color: #555;
+}
+
+input, select, button {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: #fff;
+}
+
+button {
+    background-color: #d63384; /* Pink background for buttons */
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #c13571; /* Slightly darker pink on hover */
+}
+
+a {
+    color: #d63384; /* Pink for links */
+    text-decoration: none;
+    text-align: center;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Success and error messages */
+.success {
+    color: #28a745;
+    font-weight: bold;
+    text-align: center;
+    margin: 15px 0;
+}
+
+.error {
+    color: #dc3545;
+    font-weight: bold;
+    text-align: center;
+    margin: 15px 0;
+}
+
+/* Table styling */
+table {
+    width: 90%; /* Set the table width to 90% of the page */
+    max-width: 800px; /* Optional: Limit the maximum width of the table */
+    margin: 20px auto; /* Center the table horizontally and add top margin */
+    border-collapse: collapse; /* Remove space between table cells */
+}
+
+th, td {
+    border: 1px solid #000000;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #f1c6d9; /* Light pink background for headers */
+    color: #d63384; /* Pink header text */
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f8f2f9; /* Subtle pink for even rows */
+}
+
+tr:hover {
+    background-color: #ffe6f1; /* Soft pink hover effect */
+}
+
+/* Logout link styling */
+.logout {
+    text-align: right;
+    margin: 20px; 
+}
+
+.logout a {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #d63384; /* Pink logout link */
+}
+
+.logout a:hover {
+    color: #c13571; /* Darker pink on hover */
+}
+
+/* Actions (update and cancel) */
+.actions {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.actions a {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f1c6d9;
+    color: #333;
+    text-align: center;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.actions a:hover {
+    background-color: #f8f2f9;
+}
+
+/* Center content on the page */
+body.center-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    margin: 0;
+    background-color: #f8f2f9; /* Light pink background */
+}
+
+/* Styling for the message box */
+.message-box {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.message-box h1 {
+    color: #d63384; /* Pinkish color for the title */
+    margin-bottom: 10px;
+}
+
+.message-box a {
+    color: #007bff; /* Blue color for the link */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.message-box a:hover {
+    text-decoration: underline;
+}
