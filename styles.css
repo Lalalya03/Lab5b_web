@@ -54,7 +54,7 @@ input, select, button {
 }
 
 button {
-    background-color: #d63384; /* Pink background for buttons */
+    background-color: #d63384; 
     color: white;
     border: none;
     cursor: pointer;
@@ -62,11 +62,11 @@ button {
 }
 
 button:hover {
-    background-color: #c13571; /* Slightly darker pink on hover */
+    background-color: #c13571; 
 }
 
 a {
-    color: #d63384; /* Pink for links */
+    color: #d63384; 
     text-decoration: none;
     text-align: center;
 }
@@ -93,8 +93,8 @@ a:hover {
 /* Table styling */
 table {
     width: 90%; /* Set the table width to 90% of the page */
-    max-width: 800px; /* Optional: Limit the maximum width of the table */
-    margin: 20px auto; /* Center the table horizontally and add top margin */
+    max-width: 800px; 
+    margin: 20px auto; /* Center */
     border-collapse: collapse; /* Remove space between table cells */
 }
 
@@ -105,17 +105,17 @@ th, td {
 }
 
 th {
-    background-color: #f1c6d9; /* Light pink background for headers */
-    color: #d63384; /* Pink header text */
+    background-color: #f1c6d9; 
+    color: #d63384; 
     font-weight: bold;
 }
 
 tr:nth-child(even) {
-    background-color: #f8f2f9; /* Subtle pink for even rows */
+    background-color: #f8f2f9; 
 }
 
 tr:hover {
-    background-color: #ffe6f1; /* Soft pink hover effect */
+    background-color: #ffe6f1;
 }
 
 /* Logout link styling */
@@ -127,11 +127,11 @@ tr:hover {
 .logout a {
     font-size: 1rem;
     font-weight: bold;
-    color: #d63384; /* Pink logout link */
+    color: #d63384; 
 }
 
 .logout a:hover {
-    color: #c13571; /* Darker pink on hover */
+    color: #c13571; 
 }
 
 /* Actions (update and cancel) */
@@ -164,7 +164,7 @@ body.center-page {
     align-items: center;
     height: 100vh; /* Full viewport height */
     margin: 0;
-    background-color: #f8f2f9; /* Light pink background */
+    background-color: #f8f2f9; 
 }
 
 /* Styling for the message box */
@@ -177,12 +177,12 @@ body.center-page {
 }
 
 .message-box h1 {
-    color: #d63384; /* Pinkish color for the title */
+    color: #d63384;
     margin-bottom: 10px;
 }
 
 .message-box a {
-    color: #007bff; /* Blue color for the link */
+    color: #007bff; 
     text-decoration: none;
     font-weight: bold;
 }
